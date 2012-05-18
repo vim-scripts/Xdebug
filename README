@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4074
+
+This is YET another version of the DBGP client script that Seung Woo Shin created (see http://www.vim.org/scripts/script.php?script_id=1152). The reason I've added this as a new script is because I've added enough new features to warrant it. Here's a few of the best:
+
+- The debugger session opens in a new tab, so that your carefully configured windows don't get messed up. When you end the session the whole tab closes.
+- The watch window now clears each time a new request is made, so that it doesn't get confusing.
+- Do a quick eval on expressions under visual selection (with <Leader>e in visual mode).
+- If the maximum depth is reached on an array or object in the watch window, hit <CR> (return key) and the contents will be inserted inline - great for searching deeper, and deeper, and deeper...
+- Better code folding in the watch window.
+- ...
+
+To see a list of all the changes, view the github repository at https://github.com/joonty/vim-xdebug.
+
+For a description of how to configure the environment, see Timothy Madding's great description on his version of the script at http://www.vim.org/scripts/script.php?script_id=4009.
+
